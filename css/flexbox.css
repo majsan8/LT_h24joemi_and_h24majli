@@ -29,3 +29,12 @@ Permitted properties
 
 Student CSS below the line
 -------------------------- */
+
+.flex {
+display: flex; 
+flex-direction: row;
+
+
+
+
+}
