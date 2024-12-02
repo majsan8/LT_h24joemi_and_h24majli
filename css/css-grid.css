@@ -36,7 +36,7 @@ Student CSS below the line
 }
 
 .grid p {
-    font-weight: 800;
+    font-weight: 400;
 }
 
 .grid > * {
@@ -111,15 +111,6 @@ grid-column: 1 / -1;
     grid-row: 5 / 6;
 }
 
-.grid div:nth-child(2),
-.grid div:nth-child(3),
-.grid div:nth-child(5),
-.grid div:nth-child(10),
-.grid div:nth-child(9),
-.grid div:nth-child(7),
-.grid div:nth-child(8) {
-  font-weight: 400;
-} 
 
 
 @media screen and (min-width: 1024px) {
@@ -178,14 +169,5 @@ grid-column: 1 / -1;
         grid-row: 5 / 6;
     }
     
-    .grid div:nth-child(2),
-    .grid div:nth-child(3),
-    .grid div:nth-child(5),
-    .grid div:nth-child(10),
-    .grid div:nth-child(9),
-    .grid div:nth-child(7),
-    .grid div:nth-child(8) {
-      font-weight: 400;
-    } 
 }
 }
