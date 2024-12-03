@@ -36,6 +36,16 @@ Student CSS below the line
 place-content: center;
 }
 
+.grid-area p {
+    font-weight: 400;
+}
+
+.grid-area > :nth-child(1) p,
+.grid-area > :nth-child(4) p,
+.grid-area > :nth-child(6) p {
+    font-weight: 800;
+}
+
 @media screen and (min-width: 768px) {
     .grid-area {
         grid-template-columns: repeat(3, 1fr);
